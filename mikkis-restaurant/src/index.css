@@ -15,6 +15,7 @@ body {
   height: 100vh;
 }
 
+/* NAV-BAR */
 .nav-wrap {
   margin: auto;
   display: flex;
@@ -48,22 +49,46 @@ body {
   font-size: 15px;
   text-decoration: none;
 }
-
+/* HEADER */
 .header-wrap {
   margin: auto;
   width: auto;
   display: flex;
-  color: black;
   justify-content: center;
 }
+
 
 .title-header {
   width: 80vw;
   text-align: center;
-  color: black;
+  color: rgb(131, 131, 131);
   font-size: 45px;
 }
 
 .header-quote {
   font-size: 24px;
+}
+
+/* MAIN */
+.main-wrap {
+  display: grid;
+  color: rgb(131, 131, 131);
+}
+
+.form-wrap {
+  width: auto;
+}
+
+.form-class {
+
+}
+
+.main-par {
+  width: auto;
+  float: right;
+}
+
+/* FOOTER */
+.footer-class {
+  color:whitesmoke;
 }
