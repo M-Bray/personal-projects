@@ -5,7 +5,14 @@ function Nav() {
   return (
     <div className="nav-wrap">
         <Button />
-        
+        <Button />
+        <Button />
+        <Button />
+        <Button />
+        <Button />
+        <Button />
+        <Button />
+        <Button />    
     </div>
   )
 }
